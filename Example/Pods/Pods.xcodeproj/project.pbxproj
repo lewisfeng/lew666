@@ -16,7 +16,7 @@
 		817CFEEBAF33F3D3804766DE15872E0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B725196424B65F571EA6572A73BEE071 /* lew666-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8335E5F68BCAA19260718EB42F9374A5 /* lew666-dummy.m */; };
 		DC6B550E877F55042EACD04E593BC200 /* lew666-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B37E41DE53BC4996C1A1D0469193F7D4 /* lew666-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F733AC096D869B01F02A33AB986AAD0F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC15C48BBB0B3CD17C7E98FCC703A6 /* ReplaceMe.swift */; };
+		F733AC096D869B01F02A33AB986AAD0F /* LOOP000.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC15C48BBB0B3CD17C7E98FCC703A6 /* LOOP000.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0345109646665951751800C8C217E0E2 /* Pods-lew666_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lew666_Example.release.xcconfig"; sourceTree = "<group>"; };
-		095CE178636BCB64CF741BA5C313F1C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		095CE178636BCB64CF741BA5C313F1C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		21D1E55FC204C1992D3BC48E21842A6F /* Pods-lew666_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lew666_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		27DD688879B11092041A93C1092EE95D /* Pods-lew666_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lew666_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2A240274F974868574E377701FCBB919 /* Pods-lew666_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lew666_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -55,9 +55,9 @@
 		8335E5F68BCAA19260718EB42F9374A5 /* lew666-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "lew666-dummy.m"; sourceTree = "<group>"; };
 		87B1A700DE3F639413610BC8B5064611 /* lew666-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "lew666-Info.plist"; sourceTree = "<group>"; };
 		8FBCFFB1614E9D05B85186E827BB5530 /* Pods-lew666_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lew666_Example-frameworks.sh"; sourceTree = "<group>"; };
-		978170F8F18966B8F5BBD77145263D3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		978170F8F18966B8F5BBD77145263D3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9B44BFAFDB11AFB3C01543EB471C0C7E /* lew666-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lew666-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2BA46BBC4859D2D230F07ABB0654F6F /* Pods-lew666_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lew666_Example-Info.plist"; sourceTree = "<group>"; };
 		A4D85DE5B81A7DBBDDFAAD7BBEE3709E /* Pods-lew666_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lew666_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B37E41DE53BC4996C1A1D0469193F7D4 /* lew666-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lew666-umbrella.h"; sourceTree = "<group>"; };
@@ -65,10 +65,10 @@
 		C37FF48B93553D91F3CEFEDE2F33EEEA /* Pods-lew666_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-lew666_Example"; path = Pods_lew666_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C983ED6FA57902E275B7F6BA9E35B20F /* lew666 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = lew666; path = lew666.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99DD9C34EDD2BD5625CDBCED40B93C7 /* Pods-lew666_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lew666_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C9AC15C48BBB0B3CD17C7E98FCC703A6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = lew666/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		C9AC15C48BBB0B3CD17C7E98FCC703A6 /* LOOP000.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LOOP000.swift; path = lew666/Classes/LOOP000.swift; sourceTree = "<group>"; };
 		D10F046057553BA3951F27AF7548BCAF /* Pods-lew666_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-lew666_Example.modulemap"; sourceTree = "<group>"; };
 		D225CA88B84C4384754D869E8E996B23 /* Pods-lew666_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lew666_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EC6162BDAC74DCC9BFC718C6234A1998 /* lew666.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = lew666.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EC6162BDAC74DCC9BFC718C6234A1998 /* lew666.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = lew666.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F9933C03C4906EB405963678C7E36CD5 /* lew666.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = lew666.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,7 +169,7 @@
 		B1E6C05B43B4DF8920E57D8BF215F193 /* lew666 */ = {
 			isa = PBXGroup;
 			children = (
-				C9AC15C48BBB0B3CD17C7E98FCC703A6 /* ReplaceMe.swift */,
+				C9AC15C48BBB0B3CD17C7E98FCC703A6 /* LOOP000.swift */,
 				7E42E8A1DD1E4536556616C9E91C02CE /* Pod */,
 				3B171F32FDF92FFD083663A9BFC03794 /* Support Files */,
 			);
@@ -368,7 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B725196424B65F571EA6572A73BEE071 /* lew666-dummy.m in Sources */,
-				F733AC096D869B01F02A33AB986AAD0F /* ReplaceMe.swift in Sources */,
+				F733AC096D869B01F02A33AB986AAD0F /* LOOP000.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,8 +560,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
