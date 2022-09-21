@@ -1,0 +1,22 @@
+{
+  "name": "lew666",
+  "version": "0.1.0",
+  "summary": "A short description of lew666.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lewisfeng/lew666",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lewisfeng": "sfdasa@dfs.com"
+  },
+  "source": {
+    "git": "https://github.com/lewisfeng/lew666.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "lew666/Classes/**/*"
+}

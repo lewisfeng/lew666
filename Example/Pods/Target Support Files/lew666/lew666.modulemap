@@ -1,0 +1,6 @@
+framework module lew666 {
+  umbrella header "lew666-umbrella.h"
+
+  export *
+  module * { export * }
+}
